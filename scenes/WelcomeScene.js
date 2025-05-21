@@ -6,7 +6,7 @@ class WelcomeScene extends Phaser.Scene {
     super("WelcomeScene");
   }
   preload() {
-    this.load.image("welcomebg", "/public/assets/subwaySurfers/bg.png");
+    this.load.image("welcomebg", "/assets/subwaySurfers/bg.png");
     this.load.image("carLeft", "/public/assets/subwaySurfers/carLeft.png");
     this.load.image("carRight", "/public/assets/subwaySurfers/carRight.png");
     this.load.image(

@@ -7,27 +7,27 @@ class WelcomeScene extends Phaser.Scene {
   }
   preload() {
     this.load.image("welcomebg", "assets/subwaySurfers/bg.png");
-    this.load.image("carLeft", "/public/assets/subwaySurfers/carLeft.png");
-    this.load.image("carRight", "/public/assets/subwaySurfers/carRight.png");
+    this.load.image("carLeft", "assets/subwaySurfers/carLeft.png");
+    this.load.image("carRight", "assets/subwaySurfers/carRight.png");
     this.load.image(
       "largeJoint",
-      "/public/assets/subwaySurfers/largeJoint.png"
+      "assets/subwaySurfers/largeJoint.png"
     );
     this.load.image(
       "mediumJoint",
-      "/public/assets/subwaySurfers/mediumJoint.png"
+      "assets/subwaySurfers/mediumJoint.png"
     );
     this.load.image(
       "smallJoint",
-      "/public/assets/subwaySurfers/small joint.png"
+      "assets/subwaySurfers/small joint.png"
     );
-    this.load.image("handCaff", "/public/assets/subwaySurfers/handcuffs.png");
-    this.load.image("smoke", "/public/assets/subwaySurfers/smoke.png");
-    this.load.image("fire", "/public/assets/subwaySurfers/fire.png");
+    this.load.image("handCaff", "assets/subwaySurfers/handcuffs.png");
+    this.load.image("smoke", "assets/subwaySurfers/smoke.png");
+    this.load.image("fire", "assets/subwaySurfers/fire.png");
 
     this.load.spritesheet(
       "characters",
-      "/public/assets/subwaySurfers/leaf.png",
+      "assets/subwaySurfers/leaf.png",
       {
         frameWidth: 1024 / 4,
         frameHeight: 309,
@@ -35,18 +35,18 @@ class WelcomeScene extends Phaser.Scene {
     );
     this.load.video(
       "gameBg",
-      "/public/assets/subwaySurfers/bg.mp4",
+      "assets/subwaySurfers/bg.mp4",
       "loadeddata",
       false,
       true
     );
 
-    this.load.image("progress", "/public/assets/progress.png");
-    this.load.image("progress2", "/public/assets/progress2.png");
-    this.load.image("playbtn", "/public/assets/playBtn.png");
-    this.load.image("detailsBox", "/public/assets/descriptionBox.png");
+    this.load.image("progress", "assets/progress.png");
+    this.load.image("progress2", "assets/progress2.png");
+    this.load.image("playbtn", "assets/playBtn.png");
+    this.load.image("detailsBox", "assets/descriptionBox.png");
 
-    this.load.audio("game-music", "/public/assets/startSound.mp3");
+    this.load.audio("game-music", "assets/startSound.mp3");
   }
 
   create() {
